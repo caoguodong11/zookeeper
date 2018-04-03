@@ -56,6 +56,7 @@ public class CuratorTest {
 
                 }
             }).forPath("/cgd/test2");
+
             System.out.println("11111111111111111111");
             curator.setData().forPath("/cgd/test2", "afasfsad".getBytes());
             System.out.println("11111111111111111111");
